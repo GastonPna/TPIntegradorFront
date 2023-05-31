@@ -1,0 +1,125 @@
+* html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-link{
+  font-size: 14px;
+  color: #fff;
+}
+.nav-link-green {
+  color:rgb(41,167,68);
+}
+.bg-img {
+  background-image: url("../assets/img/hawaii.jpg");
+  background-size: cover;
+  height: 90vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: end;
+  text-align: end;
+  justify-content: center;
+}
+
+.text-size{
+  font-size: 18px;
+}
+
+.overlay {
+  margin:0 4px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.btn-outline {
+  color: white;
+  border: white 1px solid;
+}
+.btn-tickets{
+  margin-left: 4px;
+  color: white;
+  background-color: rgb(41,167,68);
+}
+
+.right {
+  float: right;
+  height: inherit;
+}
+
+.skill {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 1px 8px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.skill:hover {
+  color: black;
+  cursor: none;
+}
+
+.javascript {
+  background-color: yellow;
+  color: black;
+}
+.javascript:hover {
+  color: white;
+}
+
+.react {
+  background-color: rgb(1, 204, 235);
+}
+.startup {
+  background-color: rgba(255, 0, 0, 0.9);
+}
+
+.bussines {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.text-small {
+  font-size: 14px;
+}
+
+.card-cont {
+  padding: 0 10%;
+}
+
+.dotted-underline {
+  text-decoration: underline dotted;
+}
+
+.btn-success{
+  height: 50px;
+  background-color: rgb(150, 201, 62);
+}
+.footer{
+  margin-top: 1vh;
+  align-items: center;
+  padding: 2Vh 15vh;
+  background-color: rgba(30,81,112,255);
+}
+
+.btn-footer{
+  font-size: 15px;
+  color: white;
+  width: 113px;
+  height: 80px;
+  word-wrap: break-word;
+}
+
+
