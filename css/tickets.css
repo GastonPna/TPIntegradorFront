@@ -1,0 +1,73 @@
+.convert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-link{
+      font-size: 18px;
+    }
+    .nav-link-green {
+      color:rgb(41,167,68);
+    }
+  
+  /*Cards*/
+  .myCards {
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  .card {
+    border-radius: 0;
+    border: none;
+  }
+  .text-small {
+    font-size: 14px;
+  }
+  
+  /*Formulario */
+  .divForm {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cost{
+      height: 55px;
+      background-color: cornflowerblue;
+  }
+  
+  .btnForm {
+    width: 100%;
+    background-color: rgb(150, 201, 62);
+    color: white;
+  }
+  
+  .btnForm:hover {
+      background-color:rgb(180, 220, 70);
+      color: white;
+  }
+  
+  input {
+    height: 45px;
+  }
+  select {
+    height: 45px;
+  }
+  
+  /*Pie de Pagina*/
+  .footer {
+    margin-top: 1vh;
+    align-items: flex-start;
+    padding: 2vh 15vh;
+    background-color: rgba(30, 81, 112, 255);
+  }
+  
+  .btn-footer {
+    font-size: 16px;
+    color: white;
+    width: 140px;
+    height: 80px;
+    word-wrap: break-word;
+  }
+  
