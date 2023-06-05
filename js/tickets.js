@@ -80,7 +80,7 @@ const data = [
     email.value = "";
     cantidad.value = "";
     type.value = "elegir";
-    total.value = "";
+    total.value = " ";
   };
   
   //mostrar el resumen de eleccion
